@@ -1,0 +1,3 @@
+Language File-Name   IP        Library         File-Path                          
+Verilog, design_1.v, design_1, xil_defaultlib, ../../../bd/design_1/hdl/design_1.v
+Verilog, glbl.v,     *,        xil_defaultlib, glbl.v                             

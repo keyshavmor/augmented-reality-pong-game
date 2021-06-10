@@ -1,0 +1,33 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/FNTSDZZILV7T645.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_registers
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/FQTSFQ5ILV7T63Z.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity i2c_sender
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.ip_user_files/ipstatic/blk_mem_gen_v8_3_1/simulation/blk_mem_gen_v8_3.vhd" into library blk_mem_gen_v8_3_1
+INFO: [VRFC 10-307] analyzing entity blk_mem_axi_regs_fwd_v8_3
+INFO: [VRFC 10-307] analyzing entity blk_mem_axi_write_wrapper_beh
+INFO: [VRFC 10-307] analyzing entity write_netlist
+INFO: [VRFC 10-307] analyzing entity blk_mem_axi_read_wrapper_beh
+INFO: [VRFC 10-307] analyzing entity read_netlist
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_v8_3_1_output_stage
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_v8_3_1_softecc_output_reg_stage
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_v8_3_1_mem_module
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_v8_3_1
+INFO: [VRFC 10-307] analyzing entity beh_ff_clr
+INFO: [VRFC 10-307] analyzing entity beh_ff_ce
+INFO: [VRFC 10-307] analyzing entity beh_ff_pre
+INFO: [VRFC 10-307] analyzing entity beh_muxf7
+INFO: [VRFC 10-307] analyzing entity STATE_LOGIC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/F5IR32HILV7T64J.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/FLW9TWWILV7T64G.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clocking
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/F0UU05JILV7T644.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/F6SJNRTILV7T642.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_capture
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/admin/V15.4/0v7670/0v7670.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_top

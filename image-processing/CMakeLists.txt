@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( aestest )
+find_package( OpenCV REQUIRED )
+add_executable( aestest visual.cpp )
+target_link_libraries( aestest ${OpenCV_LIBS} )

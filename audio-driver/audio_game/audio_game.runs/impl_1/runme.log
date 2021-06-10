@@ -1,0 +1,338 @@
+
+*** Running vivado
+    with args -log system_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source system_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/lina/Dokumente/TUB/SoSe2018/AES/ip_cores'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1209.234 ; gain = 30.000 ; free physical = 550 ; free virtual = 4251
+Command: link_design -top system_wrapper -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.dcp' for cell 'system_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_nco_0_0/system_nco_0_0.dcp' for cell 'system_i/nco_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.dcp' for cell 'system_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.dcp' for cell 'system_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_xlconstant_0_0/system_xlconstant_0_0.dcp' for cell 'system_i/xlconstant_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_zed_audio_ctrl_0_0/system_zed_audio_ctrl_0_0.dcp' for cell 'system_i/zed_audio_ctrl_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0.dcp' for cell 'system_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.dcp' for cell 'system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 39 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_board.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_board.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/axi_gpio_0/U0'
+Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/axi_gpio_0/U0'
+Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc]
+WARNING: [Vivado 12-584] No ports matched 'BCLK'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BCLK'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LRCLK'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LRCLK'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SDATA_I'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SDATA_I'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SDATA_O'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SDATA_O'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'FCLK_CLK1'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'FCLK_CLK1'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'iic_1_scl_io'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'iic_1_scl_io'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'iic_1_sda_io'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'iic_1_sda_io'. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.srcs/constrs_1/new/adc_dac_audio.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+18 Infos, 14 Warnings, 14 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:39 ; elapsed = 00:01:45 . Memory (MB): peak = 1667.301 ; gain = 458.066 ; free physical = 160 ; free virtual = 3870
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1667.301 ; gain = 0.000 ; free physical = 168 ; free virtual = 3863
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 3 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1e0ae9c9a
+
+Time (s): cpu = 00:00:00.88 ; elapsed = 00:00:02 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 116 ; free virtual = 3522
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1e0ae9c9a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 113 ; free virtual = 3519
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 237260f0c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 107 ; free virtual = 3517
+INFO: [Opt 31-389] Phase Sweep created 8 cells and removed 189 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 237260f0c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 106 ; free virtual = 3517
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 237260f0c
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 105 ; free virtual = 3516
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 2536e37d3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 105 ; free virtual = 3516
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 105 ; free virtual = 3516
+Ending Logic Optimization Task | Checksum: 2536e37d3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2031.816 ; gain = 0.000 ; free physical = 105 ; free virtual = 3516
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=4.616 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 4
+Ending PowerOpt Patch Enables Task | Checksum: 15a4c1288
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 183 ; free virtual = 3442
+Ending Power Optimization Task | Checksum: 15a4c1288
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2277.070 ; gain = 245.254 ; free physical = 186 ; free virtual = 3447
+INFO: [Common 17-83] Releasing license: Implementation
+40 Infos, 14 Warnings, 14 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:39 ; elapsed = 00:01:38 . Memory (MB): peak = 2277.070 ; gain = 609.770 ; free physical = 180 ; free virtual = 3443
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.77 ; elapsed = 00:00:00.49 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 160 ; free virtual = 3439
+INFO: [Common 17-1381] The checkpoint '/home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.runs/impl_1/system_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx
+Command: report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/lina/Dokumente/TUB/SoSe2018/AES/audio_game/audio_game.runs/impl_1/system_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 138 ; free virtual = 3429
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 126 ; free virtual = 3427
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1016d942c
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.43 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 126 ; free virtual = 3427
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 153 ; free virtual = 3456
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (4) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 4 sites.
+	Term: BCLK_0
+	Term: FCLK_CLK1_0
+	Term: LRCLK_0
+	Term: SDATA_O_0
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (2) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 4 sites.
+	Term: BCLK_0
+	Term: FCLK_CLK1_0
+	Term: LRCLK_0
+	Term: SDATA_O_0
+
+
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  BiDi RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 2 sites.
+	Term: IIC_1_0_scl_io
+	Term: IIC_1_0_sda_io
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (1) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 4 sites.
+	Term: BCLK_0
+	Term: FCLK_CLK1_0
+	Term: LRCLK_0
+	Term: SDATA_O_0
+
+
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  BiDi RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 2 sites.
+	Term: IIC_1_0_scl_io
+	Term: IIC_1_0_sda_io
+
+
+ IO Group: 2 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 1 sites.
+	Term: SDATA_I_0
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (7) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 4 sites.
+	Term: BCLK_0
+	Term: FCLK_CLK1_0
+	Term: LRCLK_0
+	Term: SDATA_O_0
+
+
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  BiDi RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 2 sites.
+	Term: IIC_1_0_scl_io
+	Term: IIC_1_0_sda_io
+
+
+ IO Group: 2 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 1 sites.
+	Term: SDATA_I_0
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    50 |     2 | LVCMOS33(2)                                                            |                                          |        |  +3.30 |    YES |     |
+| 33 |    50 |     8 | LVCMOS33(8)                                                            |                                          |        |  +3.30 |    YES |     |
+| 34 |    50 |     1 | LVCMOS25(1)                                                            |                                          |        |  +2.50 |    YES |     |
+| 35 |    50 |     7 | LVCMOS25(7)                                                            |                                          |        |  +2.50 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   200 |    18 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 13     | ADDRESS[0]           | LVCMOS33        | IOB_X0Y19            | AB1                  |                      |
+|        | ADDRESS[1]           | LVCMOS33        | IOB_X0Y23            | Y5                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 33     | leds_8bits_tri_o[0]  | LVCMOS33        | IOB_X1Y46            | T22                  |                      |
+|        | leds_8bits_tri_o[1]  | LVCMOS33        | IOB_X1Y48            | T21                  |                      |
+|        | leds_8bits_tri_o[2]  | LVCMOS33        | IOB_X1Y45            | U22                  |                      |
+|        | leds_8bits_tri_o[3]  | LVCMOS33        | IOB_X1Y47            | U21                  |                      |
+|        | leds_8bits_tri_o[4]  | LVCMOS33        | IOB_X1Y44            | V22                  |                      |
+|        | leds_8bits_tri_o[5]  | LVCMOS33        | IOB_X1Y43            | W22                  |                      |
+|        | leds_8bits_tri_o[6]  | LVCMOS33        | IOB_X1Y49            | U19                  |                      |
+|        | leds_8bits_tri_o[7]  | LVCMOS33        | IOB_X1Y0             | U14                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | sws_8bits_tri_i[7]   | LVCMOS25        | IOB_X1Y88            | M15                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | sws_8bits_tri_i[0]   | LVCMOS25        | IOB_X1Y103           | F22                  |                      |
+|        | sws_8bits_tri_i[1]   | LVCMOS25        | IOB_X1Y101           | G22                  |                      |
+|        | sws_8bits_tri_i[2]   | LVCMOS25        | IOB_X1Y102           | H22                  |                      |
+|        | sws_8bits_tri_i[3]   | LVCMOS25        | IOB_X1Y104           | F21                  |                      |
+|        | sws_8bits_tri_i[4]   | LVCMOS25        | IOB_X1Y112           | H19                  |                      |
+|        | sws_8bits_tri_i[5]   | LVCMOS25        | IOB_X1Y100           | H18                  |                      |
+|        | sws_8bits_tri_i[6]   | LVCMOS25        | IOB_X1Y149           | H17                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 151c6c262
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 144 ; free virtual = 3453
+Phase 1 Placer Initialization | Checksum: 151c6c262
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 144 ; free virtual = 3453
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 151c6c262
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2277.070 ; gain = 0.000 ; free physical = 145 ; free virtual = 3454
+INFO: [Common 17-83] Releasing license: Implementation
+57 Infos, 14 Warnings, 14 Critical Warnings and 7 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  8 16:20:20 2018...

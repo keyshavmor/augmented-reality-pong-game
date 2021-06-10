@@ -1,0 +1,1 @@
+-wto "6f81daeaa87a48c3b2a348da04e49e0a" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "blk_mem_gen_v8_3_1" -L "secureip" --snapshot "ov7670_top_behav" "xil_defaultlib.ov7670_top" -log "elaborate.log" 
